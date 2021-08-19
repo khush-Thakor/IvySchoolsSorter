@@ -1,1 +1,12 @@
+body {
+  background-image:  linear-gradient(lightgreen, white);
+  min-height: 100vh;
+}
+.titleLabel {
+  width: 200px;
+  height: 100px;
+  border-radius: 100px / 50px;
+  padding: 10px;
+  border-color: #00DCFF;
+}
 
