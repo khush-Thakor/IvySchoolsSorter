@@ -1,28 +1,29 @@
-var collegeNames = ["harvard", "yale", "princeton","columbia","brown","dartmouth","uPenn","cornell"];
-
-for (let i = 1;i<9;i++){
-  if (i==1)
-  document.getElementById("collegeImage"+i.toString()).src = "harvardImage.jpg"
-  
-  document.getElementById("collegeImage"+i.toString()).src = collegeNames[i-1]+"Image.png";
-  console.log(collegeNames[i-1]+"Image.png");
+body {
+  background-image:  linear-gradient(lightgreen, white);
+  min-height: 100vh;
 }
-
-document.getElementById("backButtonArea").style.display = 'none';
-for (let i = 1; i < 9; i++) {
-document.getElementById("button"+i.toString()).addEventListener("click",function(){
-  nextButton();
-});
+.titleLabel {
+  width: 200px;
+  height: 100px;
+  border-radius: 100px / 50px;
+  padding: 10px;
+  border-color: #00DCFF;
 }
-document.getElementById('backButton').addEventListener("click",function(){
-  backButton();
-});
-
-function nextButton(){
-  document.getElementById('welcomePage').style.display = 'none';
-  document.getElementById("backButtonArea").style.display = 'block';
+.topImages{
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  border: solid blue;
+  background-color: transparent;
 }
-function backButton(){
-  document.getElementById('welcomePage').style.display = 'block';
-  document.getElementById("backButtonArea").style.display = 'none';
+figure {
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+}
+.backButton{
+  border-radius: 100px;
+  border-color: black;
+  margin: 10px;
+  background-color: transparent;
 }
