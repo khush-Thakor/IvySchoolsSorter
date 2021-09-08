@@ -30,7 +30,7 @@ let k = document.getElementById("studentSizeButton");
 let c = document.getElementById("staffSizeButton");
 for (let i = 1;i<9;i++){
   document.getElementById("collegeName"+i).innerHTML = collegeNames[i-1];
-document.getElementById("collegeImage"+i).src = collegeImages[i-1];
+  document.getElementById("/collegeImages/collegeImage"+i).src = collegeImages[i-1];
 }
 
 
@@ -69,6 +69,6 @@ function sortAcceptanceRates(){
 function updateScreen(){
   for (let i = 1;i<9;i++){
     document.getElementById("collegeImage"+i).src = collegeImages[i-1];
-    document.getElementById("collegeName"+i).innerHTML = collegeNames[i-1];
+    document.getElementById("/collegeImages/collegeImage"+i).src = collegeImages[i-1];
   }
 }
