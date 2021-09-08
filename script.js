@@ -3,6 +3,7 @@ var selection = "";
 var collegeNames = ["Brown","Columbia","Cornell","Dartmouth","Harvard","Princeton","University of Pennsylvania","Yale"]
 var collegeImages = ["collegeImages/brownImage.png","collegeImages/columbiaImage.png","collegeImages/cornellImage.png","collegeImages/dartmouthImage.png","collegeImages/harvardImage.jpg","princetonImage.png","collegeImages/uPennImage.png","collegeImages/yaleImage.png"]
 var acceptanceRatesList =[5.4,3.7,8.7,6.17,3.43,5.63,5.68,4.62];
+console.log("Done");
 const acceptanceRates = new Map();
 const collegeImagesMap = new Map();
 collegeImagesMap.set("Brown","brownImage.png");
