@@ -5,13 +5,13 @@ var collegeImages = ["collegeImages/brownImage.png","collegeImages/columbiaImage
 var acceptanceRatesList =[5.4,3.7,8.7,6.17,3.43,5.63,5.68,4.62];
 const acceptanceRates = new Map();
 const collegeImagesMap = new Map();
-collegeImagesMap.set("Brown","brownImage.png");
-collegeImagesMap.set("Columbia","columbiaImage.png");
-collegeImagesMap.set("Cornell","cornellImage.png");
-collegeImagesMap.set("Dartmouth","dartmouthImage.png");
-collegeImagesMap.set("Harvard","harvardImage.jpg");
-collegeImagesMap.set("Princeton","princetonImage.png");
-collegeImagesMap.set("University of Pennsylvania","uPennImage.png");
+collegeImagesMap.set("Brown","collegeImages/brownImage.png");
+collegeImagesMap.set("Columbia","collegeImages/columbiaImage.png");
+collegeImagesMap.set("Cornell","collegeImages/cornellImage.png");
+collegeImagesMap.set("Dartmouth","collegeImages/dartmouthImage.png");
+collegeImagesMap.set("Harvard","","collegeImages/harvardImage.jpg");
+collegeImagesMap.set("Princeton","collegeImages/princetonImage.png");
+collegeImagesMap.set("University of Pennsylvania","collegeImages/yaleImage.png");
 collegeImagesMap.set("Yale","yaleImage.png");
 
 acceptanceRates.set(5.4,"Brown");
