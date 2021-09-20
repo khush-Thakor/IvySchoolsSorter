@@ -1,2 +1,2 @@
-# CollegeWebsite
-Link To Website https://khush205.github.io/CollegeWebsite/
+# Ivy School Sorter
+Link To Website https://khush205.github.io/IvySchoolsSorter/
