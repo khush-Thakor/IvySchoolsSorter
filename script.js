@@ -2,7 +2,7 @@
 
 var collegeNames = ["Brown","Columbia","Cornell","Dartmouth","Harvard","Princeton","University of Pennsylvania","Yale"]
 
-var collegeImages = ["collegeImages/brownImage.png","collegeImages/columbiaImage.png","collegeImages/cornellImage.png","collegeImages/dartmouthImage.png","collegeImages/harvardImage.jpg","collegeImages/princetonImage.png","collegeImages/uPennImage.png","collegeImages/yaleImage.png"];
+var collegeImages = ["collegeImages/brownImage.png","collegeImages/columbiaImage.png","collegeImages/cornellImage.png","collegeImages/dartmouthImage.png","collegeImages/harvardImage.png","collegeImages/princetonImage.png","collegeImages/uPennImage.png","collegeImages/yaleImage.png"];
 var acceptanceRatesList =[5.4,3.7,8.7,6.17,3.43,5.63,5.68,4.62];
 var studentSizesList = [9948,6000,23620,4170,23731,8856,21785,14810];
 var collegeRatiosList = [6,6.1,9,7,5,5.1,6.2,4];
