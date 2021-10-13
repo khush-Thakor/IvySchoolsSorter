@@ -8,89 +8,75 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
  <script src = "script.js"></script>
- <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-center">
- <ul class="navbar-nav">
-   <li id = "section1Button" class="nav-item">
-     <a class="nav-link" href="#section1">Colleges</a>
-   </li>
-   <li id = "section2Button" class="nav-item">
-     <a class="nav-link" href="#section2">College Selected</a>
-   </li>
-   <li id = "section3Button" class="nav-item">
-     <a class="nav-link" href="#section3">About Me</a>
-   </li>
- </ul>
-</nav>
- <body data-spy ="scroll">
-   <br>
-    <center><h1 class="text-success">Ivy League Schools Sorter </h1></center>
-      <br>
-  <center>
-    <div class="">
-      <h4>Select a category in which to rank the Ivy League Schools</h4>
-    </div>
-    <br>
-    <div class="dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id = "dropDownButton">
-          Category
-        </button>
-        <div class="dropdown-menu">
-          <a id = "acceptanceRateButton" class="dropdown-item" value ="Acceptance Rate">Acceptance Rate</a>
-          <a id = "studentSizeButton" class="dropdown-item"  value ="Student Size">Student Size</a>
-          <a id = "studentRatioButton" class="dropdown-item" value = "">Student-Faculty Ratio</a>
-        </div>
-      </div>
-        <br>
-        <div id = "section1">
-          <figure>
-            <button type = "button" class = "btn" id = "collegeButton1"><img id = collegeImage1 src ="" class ="float-left"></button>
-            <figcaption id = "collegeName1">Image1</figcaption>
-          </figure>
-          <figure>
-            <button type = "button" class = "btn" id = "collegeButton2"><img id = collegeImage2 src ="" class ="float-left"></button>
-            <figcaption id = "collegeName2">Image2</figcaption>
-          </figure>
-          <figure>
-            <button type = "button" class = "btn" id = "collegeButton3"><img src ="" id = collegeImage3 class ="float-left"></button>
-            <figcaption id = "collegeName3">Image3</figcaption>
-          </figure>
-          <figure>
-            <button type = "button" class = "btn" id = "collegeButton4"><img src ="" id = collegeImage4 class ="float-left"></button>
-            <figcaption id = "collegeName4">Image4</figcaption>
-          </figure>
-          <br>
-          <figure>
-            <button type = "button" class = "btn" id = "collegeButton5"><img src ="" id = collegeImage5 class ="float-left"></button>
-            <figcaption id = "collegeName5">Image5</figcaption>
-          </figure>
-          <figure>
-            <button type = "button" class = "btn" id = "collegeButton6"><img src ="" id = collegeImage6 class ="float-left"></button>
-            <figcaption id = "collegeName6">Image6</figcaption>
-          </figure>
-          <figure>
-            <button type = "button" class = "btn" id = "collegeButton7"><img src ="" id = collegeImage7 class ="float-left"></button>
-            <figcaption id = "collegeName7">Image7</figcaption>
-          </figure>
-          <figure>
-            <button type = "button" class = "btn" id = "collegeButton8"><img src ="" id = collegeImage8 class ="float-left"></button>
-            <figcaption id = "collegeName8">Image8</figcaption>
-          </figure>
-          </center>
-        </div>
-  </center>
-  <br>
-  <br>
-  <div id ="section2">
-    <div id  = "collegeInformation" visibility = "hidden">
-      <center><img class = "collegeImage"src="" id  = "collegeImage"></center>
-      <center>
-        <p>Student Size:</p>
-         <span class="badge badge-success even-larger-badge" id = "collegeStudentSizeText">10</span>
-         <p>Acceptance Rate:</p>
-          <span class="badge badge-success even-larger-badge" id = "collegeAcceptanceRateText">10</span>
-          <p>Student-Faculty Ratio:</p><span class="badge badge-success even-larger-badge" id = "collegeRatioText">10</span>
-        </center>
-    </div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-success ">
+  <center><h1>Ivy League Schools Sorter </h1></center>
   </div>
- </body>
+</div>
+<center>
+  <div class="">
+    <h4>Select a category in which to rank the Ivy League Schools</h4>
+  </div>
+  <br>
+  <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id = "dropDownButton">
+        Category
+      </button>
+      <div class="dropdown-menu">
+        <a id = "acceptanceRateButton" class="dropdown-item" value ="Acceptance Rate">Acceptance Rate</a>
+        <a id = "studentSizeButton" class="dropdown-item"  value ="Student Size">Student Size</a>
+        <a id = "studentRatioButton" class="dropdown-item" value = "">Student-Faculty Ratio</a>
+      </div>
+
+    </div>
+      <br>
+<figure>
+  <button type = "button" class = "btn" id = "collegeButton1"><img id = collegeImage1 src ="" class ="float-left"></button>
+  <figcaption id = "collegeName1">Image1</figcaption>
+</figure>
+<figure>
+  <button type = "button" class = "btn" id = "collegeButton2"><img id = collegeImage2 src ="" class ="float-left"></button>
+  <figcaption id = "collegeName2">Image2</figcaption>
+</figure>
+<figure>
+  <button type = "button" class = "btn" id = "collegeButton3"><img src ="" id = collegeImage3 class ="float-left"></button>
+  <figcaption id = "collegeName3">Image3</figcaption>
+</figure>
+<figure>
+  <button type = "button" class = "btn" id = "collegeButton4"><img src ="" id = collegeImage4 class ="float-left"></button>
+  <figcaption id = "collegeName4">Image4</figcaption>
+</figure>
+<br>
+<figure>
+  <button type = "button" class = "btn" id = "collegeButton5"><img src ="" id = collegeImage5 class ="float-left"></button>
+  <figcaption id = "collegeName5">Image5</figcaption>
+</figure>
+<figure>
+  <button type = "button" class = "btn" id = "collegeButton6"><img src ="" id = collegeImage6 class ="float-left"></button>
+  <figcaption id = "collegeName6">Image6</figcaption>
+</figure>
+<figure>
+  <button type = "button" class = "btn" id = "collegeButton7"><img src ="" id = collegeImage7 class ="float-left"></button>
+  <figcaption id = "collegeName7">Image7</figcaption>
+</figure>
+<figure>
+  <button type = "button" class = "btn" id = "collegeButton8"><img src ="" id = collegeImage8 class ="float-left"></button>
+  <figcaption id = "collegeName8">Image8</figcaption>
+</figure>
+</center>
+<br>
+<br>
+<div id  = "collegeInformation" visibility = "hidden">
+  <center><img class = "collegeImage"src="" id  = "collegeImage"></center>
+  <center>
+    <p>Student Size:</p>
+     <span class="badge badge-success even-larger-badge" id = "collegeStudentSizeText">10</span>
+     <p>Acceptance Rate:</p>
+      <span class="badge badge-success even-larger-badge" id = "collegeAcceptanceRateText">10</span>
+      <p>Student-Faculty Ratio:</p><span class="badge badge-success even-larger-badge" id = "collegeRatioText">10</span>
+    </center>
+
+
+</div>
+
 </html>
