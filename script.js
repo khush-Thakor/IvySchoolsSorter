@@ -25,6 +25,7 @@ let e = document.getElementById("acceptanceRateButton");
 let k = document.getElementById("studentSizeButton");
 let c = document.getElementById("studentRatioButton");
 document.getElementById('collegeInformation').style.display = "none";
+scrollingElement = (document.scrollingElement || document.body);
 for (let i = 1;i<9;i++){
   document.getElementById("collegeName"+i).innerHTML = i+". "+collegeNames[i-1];
   document.getElementById("collegeImage"+i).src = collegeImages[i-1];
@@ -55,6 +56,7 @@ for (let i = 0;i<8;i++){
     document.getElementById("collegeRatioText").innerHTML = "5:1";
     else
     document.getElementById("collegeRatioText").innerHTML = collegeRatiosList[i]+":1";
+    scrollSmoothToBottom();
   });
 }
 
@@ -117,4 +119,9 @@ function updateScreen(){
     document.getElementById("collegeImage"+i).src = collegeImages[i-1];
     document.getElementById("collegeName"+i).innerHTML = i+". "+collegeNames[i-1];
   }
+}
+function scrollSmoothToBottom (id) {
+  $(scrollingElement).animate({
+     scrollTop: document.body.scrollHeight
+  }, 500);
 }
